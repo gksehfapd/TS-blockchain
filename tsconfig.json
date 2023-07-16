@@ -1,0 +1,11 @@
+{
+	"include": ["src"], //src폴더 내의 모든 파일은 검사함
+	"compilerOptions": {
+		"outDir": "build", //src의 ts파일을 build폴더에 js파일로 컴파일 함
+		"target": "ES6", //컴파일 한 js version
+		"lib": ["ES6"],
+		"strict": true,
+		"esModuleInterop": true,
+		"module": "CommonJS"
+	}
+}
